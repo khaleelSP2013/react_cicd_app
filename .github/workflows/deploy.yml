@@ -1,6 +1,7 @@
 name: React App using github page
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
