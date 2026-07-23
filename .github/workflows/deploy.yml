@@ -22,11 +22,11 @@ jobs:
 
       # install Dependencies
       - name: install Dependencies
-        run: mpm install
+        run: npm install
 
       # Build the project
       - name: Build Project
-        run: mpm run build
+        run: npm run build
 
         # Deploy to the github pages
       - name: Deploy to the github pages
